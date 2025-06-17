@@ -27,7 +27,7 @@ export function formatEmbed(data) {
   const embed1 = new EmbedBuilder()
     .setTitle(hostname)
     .setImage(imageUrl)
-	.setFooter({ text: `${mode} — ${map} — **${playerCount}/${maxPlayers}** players` });
+	.setFooter({ text: `${mode} — ${map} — ${playerCount}/${maxPlayers} players` });
   let embed2 = new EmbedBuilder()
 	.setFooter({ text: `Updated ${updatedTime} (${timezone})` });
   if(playerCount){
