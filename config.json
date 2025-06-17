@@ -1,0 +1,7 @@
+{
+  "serverIP": "SERVER_IP",
+  "serverPort": "SERVER_PORT",
+  "discordWebhookUrl": "DISCORD_WEBHOOK",
+  "messageId": "",
+  "timezone": "TIMEZONE"
+}
